@@ -1,4 +1,4 @@
-import { meta } from "../assets/images";
+import { propel } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,10 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    postman,
+    docker,
+    threeJS
 } from "../assets/icons";
 
 export const skills = [
@@ -81,6 +84,21 @@ export const skills = [
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
+    },
+    {
+        imageUrl: postman,
+        name: "Postman",
+        type: "Backend",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "Cloud",
+    },
+    {
+        imageUrl: threeJS,
+        name: "Three.js",
+        type: "Frontend",
     }
 ];
 
@@ -88,8 +106,8 @@ export const experiences = [
     {
         title: "Full stack Developer",
         company_name: "Propel Mentorship",
-        icon: meta,
-        iconBg: "#a2d2ff",
+        icon: propel,
+        iconBg: "#000",
         date: "June 2024 - Sep 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
@@ -137,43 +155,22 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Stack Overflow Clone',
+        description: 'Developed a Stack Overflow clone, It’s a complete project with frontend and backend integrated, uses redux for state management, best uses of React hooks, reusable code, proper schema for the backend, and good folder structure.',
+        link: 'https://stack-overflow-clone-web.vercel.app/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Flip The Coin',
+        description: "This is my basic Web3 project: you have to bid some amount to start this game. If you get your predicted outcome then you get double the amount of bedding, but if you lose, you won't lose anything.",
+        link: 'https://irshad-coin-flip-game.vercel.app/',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'E-commerce Shoe Shop',
+        description: 'This is my E-commerce project hosted on an AWS EC2 instance,  It contains user-friendly UI, easy-to-use features, an authentication system, a Stripe payment gateway, order status, an order tracking system, a user can give reviews, chatbot for queries.  ',
+        link: 'https://drive.google.com/file/d/11X9788LyjaPkoLA1ilXu--LF7xuqY5nA/view?usp=drive_link',
     }
 ];
