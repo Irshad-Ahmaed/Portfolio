@@ -16,7 +16,7 @@ const About = () => {
         <p>
           An Electrical engineering student passionate about Web development,
           I love to learn and build new projects while using different technologies.
-          I am a highly motivated and self-driven individual who strongly desires to learn new technologies and apply my skills to solve real-world problems.
+          I am a highly motivated and self-driven individual who strongly desires to learn new things and apply my skills to solve real-world problems.
         </p>
       </div>
 
