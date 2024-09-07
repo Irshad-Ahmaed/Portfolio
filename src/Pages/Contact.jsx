@@ -5,6 +5,9 @@ import Loader from '../components/Loader';
 import Fox from '../Models/Fox';
 import useAlert from '../hooks/useAlert';
 import Alert from '../components/Alert';
+import { Link } from 'react-router-dom';
+
+import { github, linkedin } from '../assets/icons';
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -62,7 +65,16 @@ const Contact = () => {
     { alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text">Get in Touch</h1>
+        <h1 className="head-text text-center">Get in Touch</h1>
+        
+        <div className='flex justify-center items-center gap-5'>
+          <Link to="https://github.com/Irshad-Ahmaed" target='_blanck'>
+            <img className='w-[60%]' src={github} alt='my_linkedin_profile' />
+          </Link>
+          <Link to="https://linkedin.com/in/irshad-ahmad-63497924a/" target='_blanck'>
+            <img className='w-full' src={linkedin} alt='my_linkedin_profile' />
+          </Link>
+        </div>
 
         <form onSubmit={handleSubmit} className="w-full flex flex-col gap-7 mt-14">
           <label className="text-black-500 font-semibold">
@@ -115,7 +127,6 @@ const Contact = () => {
 
         </Canvas>
       </div>
-
     </section>
   )
 }

@@ -16,14 +16,14 @@ const CTA = () => {
           </Link>
         </div>
 
-        <div className='flex justify-end items-center'>
+        {/* <div className='flex justify-end items-center'>
           <Link to="https://github.com/Irshad-Ahmaed" target='_blanck'>
             <img className='w-[50%]' src={github} alt='my_linkedin_profile' />
           </Link>
           <Link to="https://linkedin.com/in/irshad-ahmad-63497924a/" target='_blanck'>
             <img className='w-[100%]' src={linkedin} alt='my_linkedin_profile' />
           </Link>
-        </div>
+        </div> */}
     </section>
   )
 }
