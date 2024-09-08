@@ -112,7 +112,8 @@ export const experiences = [
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Built and test API endpoints with the postman and Node.js",
+            "Built and test API endpoints with the postman, express and Node.js",
+            "Reduce the time by 30% for API calling.",
             "Build the Mongoose schema to manage data efficiently.",
             "Used GridFS in Mongoose to store data larger than 16MB.",
             "Containerize the whole product with Docker.",
