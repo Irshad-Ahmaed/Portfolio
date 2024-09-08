@@ -122,7 +122,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <div className='flex relative justify-center items-center gap-5 -translate-y-14'>
+      <div className='flex relative justify-center items-center gap-5 md:-translate-y-[20%]'>
         <Link to="https://github.com/Irshad-Ahmaed" target='_blanck'>
           <img className='max-w-[55%] hover:-translate-y-2 ease-in duration-[0.2s]' src={github} alt='my_linkedin_profile' />
         </Link>
