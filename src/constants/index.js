@@ -161,7 +161,7 @@ export const projects = [
         iconUrl: chatty,
         theme: 'btn-back-black',
         name: 'Chatty Chatter',
-        description: 'Developed a Stack Overflow clone, It’s a complete project with frontend and backend integrated, uses redux for state management, best uses of React hooks, reusable code, proper schema for the backend, and good folder structure.',
+        description: `Utilized the MERN stack (MongoDB, Express.js, React, Node.js), Zustand for state management, Tailwind CSS for styling, and Socket.io for real-time communication. Continuously upgrading and enhancing the application to improve performance and add new features.`,
         link: 'https://chat-app-mern-uvxz.onrender.com',
     },
     {
