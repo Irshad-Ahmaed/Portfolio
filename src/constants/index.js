@@ -1,4 +1,4 @@
-import { propel } from "../assets/images";
+import { propel, aichef, hero } from "../assets/images";
 import {
     car,
     contact,
@@ -26,33 +26,19 @@ import {
     typescript,
     postman,
     docker,
-    threeJS
+    threeJS,
+    chatty
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: html,
+        name: "HTML",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
+        imageUrl: css,
+        name: "CSS",
         type: "Frontend",
     },
     {
@@ -61,18 +47,13 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
         imageUrl: react,
         name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nextjs,
+        name: "Nextjs",
         type: "Frontend",
     },
     {
@@ -86,20 +67,45 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: threeJS,
+        name: "Three.js",
+        type: "Frontend",
+    },
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+    {
         imageUrl: postman,
         name: "Postman",
         type: "Backend",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
     },
     {
         imageUrl: docker,
         name: "Docker",
         type: "Cloud",
     },
-    {
-        imageUrl: threeJS,
-        name: "Three.js",
-        type: "Frontend",
-    }
 ];
 
 export const experiences = [
@@ -119,19 +125,17 @@ export const experiences = [
             "Containerize the whole product with Docker.",
         ],
     },
-    // {
-    //     title: "Full Stack Developer",
-    //     company_name: "Business Web Solution",
-    //     icon: starbucks,
-    //     iconBg: "#accbe1",
-    //     date: "March 2020 - April 2021",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+    {
+        title: "Backend Developer",
+        company_name: "AI Chef Master",
+        icon: aichef,
+        iconBg: "#000",
+        date: "Oct 2024 - Nov 2024",
+        points: [
+            "Enhanced data storage architecture, improving efficiency by 50% for seamless data retrieval and frontend integration.",
+            "Refined the Dish Overview UI to display comprehensive dish details effectively and added share functionality.",
+        ],
+    },
 ];
 
 export const socialLinks = [
@@ -148,11 +152,25 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/irshad-ahmad-63497924a/',
+        link: 'https://www.linkedin.com/in/irshad-profile',
     }
 ];
 
 export const projects = [
+    {
+        iconUrl: chatty,
+        theme: 'btn-back-black',
+        name: 'Chatty Chatter',
+        description: 'Developed a Stack Overflow clone, It’s a complete project with frontend and backend integrated, uses redux for state management, best uses of React hooks, reusable code, proper schema for the backend, and good folder structure.',
+        link: 'https://chat-app-mern-uvxz.onrender.com',
+    },
+    {
+        iconUrl: hero,
+        theme: 'btn-back-blue',
+        name: 'AI Short Video Generator',
+        description: "Utilized Gemini AI for prompt generation, Google Cloud for text-to-speech conversion, and Remotion for video synthesis.",
+        link: 'https://ir-ai-short-vid-gen.vercel.app',
+    },
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',

@@ -29,6 +29,7 @@ import soundoff from './soundoff.png'
 import docker from './docker.svg'
 import postman from './postman.png'
 import threeJS from './threeJS.svg'
+import chatty from './chatty.png';
 
 export {
     css,
@@ -61,5 +62,6 @@ export {
     soundoff,
     docker,
     postman,
-    threeJS
+    threeJS,
+    chatty
 }
