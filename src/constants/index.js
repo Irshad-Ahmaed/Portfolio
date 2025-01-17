@@ -165,6 +165,13 @@ export const projects = [
         link: 'https://chat-app-mern-uvxz.onrender.com',
     },
     {
+        iconUrl: sass,
+        theme: 'btn-back-red',
+        name: 'Reddit -bot',
+        description: `This Reddit bot automatically posts content and comments on posts using Groq AI for content generation. It also supports scheduled posting and commenting.`,
+        link: 'https://github.com/Irshad-Ahmaed/Reddit--bot',
+    },
+    {
         iconUrl: hero,
         theme: 'btn-back-blue',
         name: 'AI Short Video Generator',
