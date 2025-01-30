@@ -162,7 +162,7 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'Chatty Chatter',
         description: `Utilized the MERN stack (MongoDB, Express.js, React, Node.js), Zustand for state management, Tailwind CSS for styling, and Socket.io for real-time communication. Continuously upgrading and enhancing the application to improve performance and add new features.`,
-        link: 'https://chat-app-mern-uvxz.onrender.com',
+        link: 'https://chat-app-mern-lf84.onrender.com',
     },
     {
         iconUrl: sass,
