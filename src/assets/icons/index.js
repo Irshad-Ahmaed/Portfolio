@@ -30,6 +30,8 @@ import docker from './docker.svg'
 import postman from './postman.png'
 import threeJS from './threeJS.svg'
 import chatty from './chatty.png';
+import AI from "./AI.png";
+import welth from "./welth.png";
 
 export {
     css,
@@ -63,5 +65,7 @@ export {
     docker,
     postman,
     threeJS,
-    chatty
+    chatty,
+    AI,
+    welth
 }

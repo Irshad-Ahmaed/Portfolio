@@ -27,7 +27,9 @@ import {
     postman,
     docker,
     threeJS,
-    chatty
+    chatty,
+    AI,
+    welth
 } from "../assets/icons";
 
 export const skills = [
@@ -157,6 +159,20 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: AI,
+        theme: 'btn-back-white',
+        name: 'AI Recruiter Platform',
+        description: `An AI-powered voice interview platform where recruiters can create job posts, generate AI-based interview questions, and allow candidates to take interviews via a voice AI agent. The agent evaluates candidate responses in real-time and provides a detailed performance report to the recruiter.`,
+        link: 'https://ai-v-recruiter.vercel.app',
+    },
+    {
+        iconUrl: welth,
+        theme: 'btn-back-white',
+        name: 'Welth',
+        description: `A modern full-stack finance management platform built with Next.js, Supabase, Tailwind CSS, Prisma, Inngest, ArcJet, and Shadcn UI. Manage your finances, track transactions, and stay on top of your budget — all in one place.`,
+        link: 'https://welth-zeta.vercel.app',
+    },
     {
         iconUrl: chatty,
         theme: 'btn-back-black',
