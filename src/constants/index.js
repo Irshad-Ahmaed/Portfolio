@@ -162,6 +162,13 @@ export const projects = [
     {
         iconUrl: AI,
         theme: 'btn-back-white',
+        name: 'Perplexity 2.0',
+        description: `A modern, responsive AI chat interface with integrated web search functionality. Perplexity 2.0 provides a clean UI similar to Perplexity.ai, combining conversational AI with real-time search capabilities.`,
+        link: 'https://perplexity-2-0.vercel.app',
+    },
+    {
+        iconUrl: AI,
+        theme: 'btn-back-white',
         name: 'AI Recruiter Platform',
         description: `An AI-powered voice interview platform where recruiters can create job posts, generate AI-based interview questions, and allow candidates to take interviews via a voice AI agent. The agent evaluates candidate responses in real-time and provides a detailed performance report to the recruiter.`,
         link: 'https://ai-v-recruiter.vercel.app',
