@@ -32,6 +32,7 @@ import threeJS from './threeJS.svg'
 import chatty from './chatty.png';
 import AI from "./AI.png";
 import welth from "./welth.png";
+import aiSuper from "./aiSupervisor.png";
 
 export {
     css,
@@ -67,5 +68,6 @@ export {
     threeJS,
     chatty,
     AI,
+    aiSuper,
     welth
 }

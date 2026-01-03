@@ -29,6 +29,7 @@ import {
     threeJS,
     chatty,
     AI,
+    aiSuper,
     welth
 } from "../assets/icons";
 
@@ -160,6 +161,20 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: aiSuper,
+        theme: 'bg-white',
+        name: 'AI Supervisor',
+        description: `AI Supervisor This project implements a modular, self-improving AI system designed to intelligently escalate customer queries that the AI agent cannot answer. The system then captures the human supervisor's answer, uses it to follow up with the original customer via SMS, and permanently updates its knowledge base.`,
+        link: 'https://github.com/Irshad-Ahmaed/H-I-T-L-Frontdesk',
+    },
+    {
+        iconUrl: 'https://framerusercontent.com/images/u6E7eUPU0IyjBI6mNqDorZYJc.svg?scale-down-to=512&width=1199&height=276',
+        theme: 'btn-back-black',
+        name: 'Traycer Lite',
+        description: `It helps developers analyze, refactor, and improve codebases using AI-powered insights. Upload your files, describe your goals, and let it propose meaningful changes—fast.`,
+        link: 'https://github.com/Irshad-Ahmaed/ReverseTray',
+    },
+    {
         iconUrl: AI,
         theme: 'btn-back-white',
         name: 'Perplexity 2.0',
@@ -167,8 +182,8 @@ export const projects = [
         link: 'https://perplexity-2-0.vercel.app',
     },
     {
-        iconUrl: AI,
-        theme: 'btn-back-white',
+        iconUrl: "https://www.shutterstock.com/image-vector/letter-c-ai-logo-concept-600w-2653356865.jpg",
+        theme: 'bg-transparent',
         name: 'AI Recruiter Platform',
         description: `An AI-powered voice interview platform where recruiters can create job posts, generate AI-based interview questions, and allow candidates to take interviews via a voice AI agent. The agent evaluates candidate responses in real-time and provides a detailed performance report to the recruiter.`,
         link: 'https://ai-v-recruiter.vercel.app',
