@@ -1,4 +1,4 @@
-import { propel, aichef, hero } from "../assets/images";
+import { propel, strmly, anthroholic_logo ,aichef, hero } from "../assets/images";
 import {
     car,
     contact,
@@ -112,6 +112,32 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+        title: "AI Full stack Developer",
+        company_name: "Anthroholic",
+        icon: anthroholic_logo,
+        iconBg: "#fff",
+        date: "Nov 2025 - Jan 2026",
+        points: [
+            "Enhanced the AI evaluator system by designing better prompts and integrating Google Vision OCR to extract and evaluate handwritten answers from images.",
+            "Migrated PostgreSQL from Neon to AWS RDS, ensuring zero data loss and minimal downtime.",
+            "Redesigned the database schema to support role-based access (Admin, User, Member) and tenant-based multi-tenancy, enabling white-labeling of the product for multiple organizations.",
+            "Customized and implemented transactional email templates and built their cron APIs.",
+            "(Ongoing) Designing and implementing a bulk answer evaluation system capable of processing large Q/A batches in the background with real-time streaming of evaluation results."
+        ],
+    },
+    {
+        title: "Frontend Developer",
+        company_name: "Strmly",
+        icon: strmly,
+        iconBg: "#000",
+        date: "June 2025 - Oct 2025",
+        points: [
+            "Developed a pixel-perfect React Native mobile UI using Expo, Zustand, and NativeWind for an immersive user experience.",
+            "Integrated multiple payment systems, including Internal Wallet, Google Pay, and App Store In-App Purchases.",
+            "Led the successful Play Store publication, improving product accessibility for thousands of users."
+        ],
+    },
     {
         title: "Full stack Developer",
         company_name: "Propel Mentorship",
