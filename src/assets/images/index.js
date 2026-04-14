@@ -8,6 +8,7 @@ import anthroholic_logo from './anthroholic_logo.jfif'
 import strmly from './strmly.png'
 import propel from './propel.jpeg'
 import aichef from './aichef.png'
+import clipza_logo from '../../../public/clipza-ai-logo.png'
 
 export {
     hero,
@@ -20,4 +21,5 @@ export {
     strmly,
     propel,
     aichef,
+    clipza_logo,
 }

@@ -1,4 +1,4 @@
-import { propel, strmly, anthroholic_logo ,aichef, hero } from "../assets/images";
+import { propel, strmly, anthroholic_logo ,aichef, hero, clipza_logo } from "../assets/images";
 import {
     car,
     contact,
@@ -186,6 +186,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: clipza_logo,
+        theme: 'bg-purple-600',
+        name: 'Clipza AI',
+        description: 'Build AI video clips, YouTube Shorts, thumbnails, and voice-backed assets in one workspace with fewer tool handoffs.',
+        link: 'https://clipza-ai-6ka2.vercel.app',
+    },
     {
         iconUrl: aiSuper,
         theme: 'bg-white',
